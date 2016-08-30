@@ -30,7 +30,7 @@ Note
 
 ## Filtering inside UDF
 
-We can use `RDD.flatMap` to process data while filtering them, for example,
+We can use [`flatMap`](https://spark.apache.org/docs/latest/api/python/pyspark.html?pyspark.RDD.flatMap) to process data while filtering them, for example,
 
 ```def get_if_odd(x):
 	if x % 2 == 1:
